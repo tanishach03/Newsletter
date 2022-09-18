@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
 const https = require("https");
-const { response } = require("express");
+// const { response } = require("express");
 const app = express();
 
 app.use(express.static("public"));
@@ -62,5 +62,3 @@ app.listen(port.env.PORT || 3000, function(){
 })
 
 
-//api key 49282131a22c7fab79810fb2859ff236-us13
-//audience id: 501112abe0
